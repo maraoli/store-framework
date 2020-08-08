@@ -9,8 +9,8 @@
     },
     "flex-layout.row#footer-1-desktop": {
         "children": [
-          "flex-layout.col#footer-left-desktop"
-          //"flex-layout.col#footer-right-desktop"
+          "flex-layout.col#footer-left-desktop",
+          "flex-layout.col#footer-right-desktop"
         ],
         "props": {
           "blockClass": "footer-row",
@@ -20,8 +20,7 @@
     },
     "flex-layout.col#footer-left-desktop": {
         "children": [
-            "accepted-payment-methods",
-            "social-networks"
+            "accepted-payment-methods"
         ]
     },
     "accepted-payment-methods": {
@@ -29,6 +28,11 @@
           "paymentMethods": ["mastercard", "visa", "diners club"],
           "showInColor": true
         }
+    },
+    "flex-layout.col#footer-right-desktop":{
+        "children": [
+            "social-networks"
+        ]
     },
     "social-networks":{
         "props": {
