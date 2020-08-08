@@ -10,8 +10,7 @@
           "header-layout.desktop",
           "header-layout.mobile"
         ]
-    },
-    
+    }, 
     "header-layout.desktop": {
         "children": [
             "header-row#notification",
@@ -60,7 +59,7 @@
           "logo",
           "header-spacer",
           "minicart",
-          "login"          
+          "login"
         ],
       
         "props": {
