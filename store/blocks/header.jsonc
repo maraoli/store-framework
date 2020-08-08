@@ -46,11 +46,6 @@
             "fullWidth": false
         }
     },
-    "search-bar":{
-        "props":{
-            "searchBarIcon": "hpa-search"
-        }
-    },
     "header-row#main-mobile": {
         "children": [
           "logo",
